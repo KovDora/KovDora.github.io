@@ -10,5 +10,8 @@ background:radial-gradient(	#6495ED,#1E90FF,#00BFFF,#00CED1);
 }
 main{
     justify-content: center;
-    text-justify:newspaper;
+    cursor: initial;
+}
+header{
+    text-underline-offset:initial;
 }
