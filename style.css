@@ -13,5 +13,5 @@ main{
     cursor: initial;
 }
 header{
-    text-underline-offset:initial;
+    text-underline-position: above;
 }
