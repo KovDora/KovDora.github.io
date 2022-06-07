@@ -1,0 +1,13 @@
+table{
+    border: 1px solid black;
+    border-spacing:0px;
+    text-align: center;
+}
+body{
+    font-family: initial;
+justify-content: center;
+background:radial-gradient(	#6495ED,#1E90FF,#00BFFF,#00CED1);
+}
+main{
+    justify-content: center;
+}
