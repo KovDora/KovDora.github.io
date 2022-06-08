@@ -2,6 +2,7 @@ table{
     border: 1px solid black;
     border-spacing:0px;
     text-align: center;
+
 }
 body{
     font-family: initial;
@@ -9,8 +10,12 @@ justify-content: center;
 background:radial-gradient(	#6495ED,#1E90FF,#00BFFF,#00CED1);
 }
 main{
+    --mainszelesseg:50%;
+    --oldalszelesseg: 100%;
+    margin-left: calc((var(--oldalszelesseg) - var(--mainszelesseg))/2);
+    margin-right: calc((var(--oldalszelesseg) - var(--mainszelesseg))/2);;
     justify-content: center;
-    cursor: initial;
+    
 }
 header{
     text-underline-position: above;
