@@ -61,7 +61,7 @@ background-color: antiquewhite;
 }
 .grid-container{
     display:grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px;
     justify-items: center;
     justify-content: space-between;
 }
@@ -76,4 +76,50 @@ div{
 a{
     font-size: large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#racs{
+    /* border: solid black 2px; */
+    display: grid;
+    grid-template-columns: repeat(6, 30px);
+    grid-template-rows: repeat(6, 30px);
+    gap:10px;
+    justify-content: center;
+}
+
+#racs>div{
+    display:grid; /* minden cella legyen grid, hogy lehessen benne szépen középre igazítani. */
+    justify-content: center; /* vízszintesen középre*/
+    align-content: center; /*függőlegesen középre*/
+    width: 30px;
+    height: 30px;
+    /*
+    */
+    border: solid black 2px;
+
+    /* border-radius: 50%; */
+    border-radius: 5px;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.421) ;
+    transition: .3s;
+}
+
+header{
+    text-align:center;
+}
+
+#racs>div:hover{
+    background-color: rgb(248, 135, 59);
+    transition: .3s;
+}
+
+#racs>div:active{
+    justify-self: center;
+    background-color:rgb(255, 77, 0);
+    width:0;
+    transition: .3s;
+}
+
+.lathatatlan{
+    display:none;
 }
