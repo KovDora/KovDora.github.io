@@ -59,3 +59,9 @@ background-color: antiquewhite;
     text-align: center;
     
 }
+.grid-container{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-items: center;
+    justify-content: space-between;
+}
