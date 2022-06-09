@@ -1,7 +1,18 @@
 table{
-    border: 60px, solid black;
+    
     border-spacing:0px;
     text-align: center;
+    border-radius: 3px;
+}
+table tr th
+{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+table tr td
+{
+    border: 1px solid black;
+    border-radius: 20px;
 }
 body{
     font-family: initial;
@@ -24,4 +35,27 @@ nav{
     border: 60px;
     border-spacing:0px;
     text-align:left;
+}
+
+.piros
+{
+    background-color: rgb(214, 43, 43);
+}
+
+.sarga{
+background-color: rgb(247, 247, 100);
+}
+.kek{
+background-color: rgb(53, 120, 197);
+}
+.lila{
+background-color:rgb(139, 69, 139)
+}
+.feher{
+background-color: antiquewhite;
+}
+.linkek{
+    border-spacing:0px;
+    text-align: center;
+    
 }
