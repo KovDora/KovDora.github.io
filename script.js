@@ -1,4 +1,4 @@
-let s = ['Begónia','Fagyöngy','Hibiszkusz','Lótuszvirág','Mályvavirág','Orchidea','Páfrány','Rózsa'];
+let s = ['Árvácska','Begónia','Citromvirág','Dália','Erdei fenyő','Fagyöngy','Golgota','Hibiszkusz','Ízisz','Jácint','Kála','Lótuszvirág','Mályvavirág','Nyárfa','Orchidea','Páfrány','Rózsa','Nyárfa'];
 s = s.concat(s);
 
 // terv:
