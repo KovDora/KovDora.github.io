@@ -1,8 +1,7 @@
 table{
-    border: 60px;
+    border: 60px, solid black;
     border-spacing:0px;
     text-align: center;
-
 }
 body{
     font-family: initial;
