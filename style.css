@@ -65,3 +65,15 @@ background-color: antiquewhite;
     justify-items: center;
     justify-content: space-between;
 }
+div{
+    border: 2px solid black;
+    background-color: rgb(255, 140, 0);
+    box-shadow: 5px, 5px, rgb(224, 24, 9) 1px;
+
+    color: rgb(194, 28, 194);
+    
+}
+a{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
