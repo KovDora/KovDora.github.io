@@ -13,8 +13,10 @@ table tr td
 {
     border: 1px solid black;
     border-radius: 20px;
+    
 }
 body{
+    font-weight:200;
     font-family: initial;
 justify-content: center;
 background:radial-gradient(	#6495ED,#1E90FF,#00BFFF,#00CED1);
@@ -35,6 +37,7 @@ nav{
     border: 60px;
     border-spacing:0px;
     text-align:left;
+
 }
 
 .piros
@@ -122,4 +125,7 @@ header{
 
 .lathatatlan{
     display:none;
+}
+hr>{
+    color:white;
 }
