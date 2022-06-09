@@ -126,10 +126,10 @@ header{
 .lathatatlan{
     display:none;
 }
-hr>{
+hr{
     color:white;
 }
-virág.jpg{
-    font-size: 25%;
-    border-radius: 15;
+.malyva{
+    width: 25%;
+    height: 25%;
 }
