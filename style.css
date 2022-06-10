@@ -89,7 +89,7 @@ a{
 
 
 #racs{
-    /* border: solid black 2px; */
+    
     display: grid;
     grid-template-columns: repeat(6, 30px);
     grid-template-rows: repeat(6, 30px);
@@ -98,16 +98,14 @@ a{
 }
 
 #racs>div{
-    display:grid; /* minden cella legyen grid, hogy lehessen benne szépen középre igazítani. */
-    justify-content: center; /* vízszintesen középre*/
-    align-content: center; /*függőlegesen középre*/
+    display:grid; 
+    justify-content: center; 
+    align-content: center; 
     width: 30px;
     height: 30px;
-    /*
-    */
+
     border: solid black 2px;
 
-    /* border-radius: 50%; */
     border-radius: 5px;
     box-shadow: 3px 3px rgba(128, 128, 128, 0.421) ;
     transition: .3s;
@@ -148,4 +146,25 @@ hr{
 .fejes{
         font-family: "Sofia", sans-serif;
 }
+/* unvisited link */
+a:link {
+    color: rgb(179, 0, 255);
+    
+    
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(16, 250, 207);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(96, 200, 245);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 0, 174);
+  }
 

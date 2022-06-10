@@ -31,24 +31,20 @@ function felfordit(e) // e mint event
 {
     let lapka = e.target; // lokális változó
     let i = hanyadik(lapka, lapka.parentElement);
-    console.log(`az ${i}-edik kockát nyomták meg`);
     
     if(elso_kattintas == -1)
     {
         elso_kattintas = i;
-        console.log('első kattintás van');
     }
+
     else if(masodik_kattintas == -1)
     {
-        masodik_kattintas = i;
-        console.log('második kattintás van');
+        masodik_kattintas = i;    
     }
+
     else // ez akkor fordul elő, amikor már volt két kattintás!
     {
-        console.log('nem első és nem második kattintás van');
         if (s[elso_kattintas]!=s[masodik_kattintas]){
-            console.log('nem egyezik a kettő');
-            
             lapka.parentElement.children[elso_kattintas].firstChild.classList.toggle('lathatatlan');
             lapka.parentElement.children[masodik_kattintas].firstChild.classList.toggle('lathatatlan');
         }
@@ -63,8 +59,6 @@ function felfordit(e) // e mint event
 function lefordit(e) // e mint event
 {
     let betuke = e.target;
-    // let i = hanyadik(lapka, lapka.parentElement);
-    // console.log(`az ${i}-edik kockát nyomták meg`);
     betuke.classList.toggle('lathatatlan');
 }
 
@@ -78,7 +72,7 @@ function hanyadik(gyerek, szulo){
 }
 
 function veletlen(mettol,meddig){
-    let oldalszam = meddig-mettol+1; // képzeletbeli dobókocka oldalszáma!
+    let oldalszam = meddig-mettol+1; 
     return mettol+Math.floor(Math.random()*oldalszam);
 }
 
@@ -86,13 +80,6 @@ function keveres(lista){
     for (let i = 0; i < lista.length; i++) {
         csere(i, veletlen(i, lista.length-1), lista);        
     }
-
-    /* "forof"
-    for (const elem of lista) {
-        
-    }
-    */
-
 }
 
 function csere(i, j, lista){    
