@@ -8,13 +8,19 @@ table tr th
 {
     border: 1px solid black;
     border-radius: 20px;
+    padding: 15px;
+    overflow-x: auto;
 }
+
 table tr td
 {
     border: 1px solid black;
     border-radius: 20px;
+    padding: 15px;
+    overflow-y: auto;
     
 }
+
 body{
     font-weight:200;
     font-family: initial;
@@ -133,6 +139,13 @@ hr{
     width: 25%;
     height: 25%;
 }
+.rozsa
 {
-    floatingtext
+    width: 25%;
+    height: 25%;
+    float:right;
 }
+.fejes{
+        font-family: "Sofia", sans-serif;
+}
+
