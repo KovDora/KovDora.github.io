@@ -33,7 +33,12 @@ main{
     margin-left: calc((var(--oldalszelesseg) - var(--mainszelesseg))/2);
     margin-right: calc((var(--oldalszelesseg) - var(--mainszelesseg))/2);;
     justify-content: center;
+    /*background-color: wheat;
     
+    */padding: 25px;
+    background: radial-gradient(wheat,rgb(245, 213, 155),rgb(240, 205, 140));
+    
+
 }
 header{
     text-underline-position: above;
@@ -145,6 +150,9 @@ hr{
 }
 .fejes{
         font-family: "Sofia", sans-serif;
+        background-color: rgb(230, 86, 206);
+        border-radius: 15px;
+        box-shadow: 30px;
 }
 /* unvisited link */
 a:link {
@@ -167,4 +175,6 @@ a:link {
   a:active {
     color: rgb(255, 0, 174);
   }
-
+p{
+    font-size:large;
+}
